@@ -315,31 +315,44 @@ a{
 /* left */
 #about_us .left .main{
 	transform: rotate(-45deg);
+	position: relative;
 }
 #about_us .left .main .common{
 	justify-content: space-between;
 }
 #about_us .left .main .item {
 	height: 175px;
-	width: 48%;
+	width: 175px;
 	margin-bottom: 15px;
+	position: absolute;
 }
-#about_us .left .main .item1{
-	border-radius: 100% 0% 0% 100% / 100% 0% 100% 0% ;
+#about_us .left .main .item1 {
+	border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%;
 	overflow: hidden;
+	top: 14px;
+	left: -143px;
 }
 #about_us .left .main .item2 {
+	height: 180px;
+	width: 180px;
 	border-radius: 5px;
-	overflow: hidden;
+	overflow: visible;
+	top: -26px;
+	left: 81px;
 }
 #about_us .left .main .item3 {
-	border-radius: 100% 0% 0% 100% / 0% 0% 100% 100% ;
+	border-radius: 100% 0% 0% 100% / 0% 0% 100% 100%;
 	overflow: hidden;
+	top: 202px;
+	left: -143px;
 }
 #about_us .left .main .item4 {
-	border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
+	border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
 	overflow: hidden;
+	top: 201px;
+	left: 45px;
 }
+
 #about_us .left .main .item1 img {
 	transform: rotate(45deg);
 	margin: 0px 0px 0px -55px;

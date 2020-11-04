@@ -114,7 +114,7 @@
 	text-align: center !important;
 }
 #service .main .item p {
-	padding: 0 15px;
+	padding: 0 30px;
 }
 #service .up::after {
 	bottom: 5px;
@@ -138,28 +138,46 @@
 #about_us .right .designation p{
 	margin-top: 0 !important;
 }
-#about_us .left {
-	margin: 15px 15px 0 53px;
-}
 #about_us .left .main .item {
-	height: 108px;
-	width: 42%;
-	margin-right: 15px;
+	height: 100px;
+	width: 100px;
+}
+#about_us .left {
+	padding-bottom: 100%;
+}
+#about_us .left .main{
+	transform: rotate(-45deg) translate(20px,10px);
+}
+#about_us .left .main .item1 {
+	top: 12px;
+	left: -82px;
 }
 #about_us .left .main .item1 img {
-	margin: -30px 0px 0px -115px;
+	margin: -37px 0px 0px -118px;
 }
-#about_us .left .main .item3 img {
-	margin: -70px 0px 0px -110px;
-}
-#about_us .left .main .item4 img {
-	margin: -5px 0px 0px -140px;
+#about_us .left .main .item2 {
+	height: 180px;
+	width: 180px;
+	top: 17px;
+	left: 82px;
 }
 #about_us .left .main .item2 img {
-	margin: -45px 0px 0px -150px;
+	height: 100%;
+	width: 90%;
 }
-#about_us .left .main .common {
-	justify-content: normal;
+#about_us .left .main .item3 {
+	top: 120px;
+	left: -82px;
+}
+#about_us .left .main .item3 img {
+	margin: -71px 0px 0px -113px;
+}
+#about_us .left .main .item4 {
+	top: 121px;
+	left: 26px;
+}
+#about_us .left .main .item4 img {
+	margin: 0px 0px 0px -140px;
 }
 /* Portfolio */
 #portfolio .main .item {
@@ -451,28 +469,11 @@
 #about_us .right .designation p{
 	margin-top: 0 !important;
 }
-#about_us .left .main {
-	transform: rotate(-45deg) translate(90px,30px);
+#about_us .left {
+	padding-bottom: 80%;
 }
-#about_us .left .main .item {
-	height: 150px;
-	width: 28%;
-	margin-right: 15px;
-}
-#about_us .left .main .item1 img {
-	margin: -30px 0px 0px -115px;
-}
-#about_us .left .main .item2 img {
-	margin: -45px 0px 0px -100px;
-}
-#about_us .left .main .item3 img {
-	margin: -50px 0px 0px -90px;
-}
-#about_us .left .main .item4 img {
-	margin: -5px 0px 0px -113px;
-}
-#about_us .left .main .common {
-	justify-content: normal;
+#about_us .left .main{
+	transform: rotate(-45deg) translate(25px,15px);
 }
 /* Portfolio */
 #portfolio .main .item {
@@ -772,28 +773,12 @@
 #about_us .right .designation p{
 	margin-top: 0 !important;
 }
-#about_us .left .main {
-	transform: rotate(-45deg) translate(155px,45px);
+#about_us .left {
+	padding-bottom: 70%;
+	margin-top: -50px;
 }
-#about_us .left .main .item {
-	height: 150px;
-	width: 21%;
-	margin-right: 15px;
-}
-#about_us .left .main .item1 img {
-	margin: -30px 0px 0px -115px;
-}
-#about_us .left .main .item2 img {
-	margin: -45px 0px 0px -100px;
-}
-#about_us .left .main .item3 img {
-	margin: -50px 0px 0px -90px;
-}
-#about_us .left .main .item4 img {
-	margin: -5px 0px 0px -113px;
-}
-#about_us .left .main .common {
-	justify-content: normal;
+#about_us .left .main{
+	transform: rotate(-45deg) translate(70px,50px);
 }
 /* Portfolio */
 #portfolio .main .item {
@@ -951,13 +936,6 @@
 	}
 	#service .main .item p {
 		font-size: 13px;
-	}
-	#about_us .left .main .item {
-		height: 145px;
-		width: 47.5%;
-	}
-	#about_us .left .main {
-		transform: rotate(-45deg) translate(30px,70px);
 	}
 	#about_us .right .p1 {
 		padding-right: 15px;
