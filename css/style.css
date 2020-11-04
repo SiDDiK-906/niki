@@ -141,6 +141,12 @@ a{
 #banner{
 	position: relative;
 }
+.for_xs_sm_md{
+	display: none;
+}
+.for_lg_nor_xl{
+	display: block;
+}
 #banner .button a:nth-child(2){
 	padding: 15px 30px;
 }
